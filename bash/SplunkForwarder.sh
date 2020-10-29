@@ -12,7 +12,7 @@ mkdir -p /opt/splunkforwarder
 cd /opt/splunkforwarder
 
 SplunkRPM="splunkforwarder.rpm"
-wget URL/${SplunkRPM} --no-check-certificate
+wget https://whateveryouwant.com/${SplunkRPM} --no-check-certificate
 rpm -i ${SplunkRPM}
 rm -f ${SplunkRPM}
 
